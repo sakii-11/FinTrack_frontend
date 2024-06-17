@@ -1,5 +1,5 @@
 import BoxHeader from "@/components/BoxHeader";
-import DashboardBox from "@/components/DashboardBox";
+import DashboardBox from "@/components/DashBoardBox";
 import FlexBetween from "@/components/FlexBetween";
 import {
   useGetKpisQuery,
@@ -169,7 +169,7 @@ const Row3 = () => {
                   paddingAngle={2}
                   dataKey="value"
                 >
-                  {data.map((entry, index) => (
+                  {data.map((_entry, index) => (
                     <Cell key={`cell-${index}`} fill={pieColors[index]} />
                   ))}
                 </Pie>
