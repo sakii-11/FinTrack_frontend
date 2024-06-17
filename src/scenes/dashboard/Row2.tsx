@@ -1,5 +1,5 @@
 import BoxHeader from "@/components/BoxHeader";
-import DashboardBox from "@/components/DashBoardBox";
+import DashboardBox from "@/components/dbBox";
 import FlexBetween from "@/components/FlexBetween";
 import { useGetKpisQuery, useGetProductsQuery } from "@/state/api";
 import { Box, Typography, useTheme } from "@mui/material";
